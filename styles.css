@@ -1,0 +1,47 @@
+:root{
+    --hover:#03A9F4;
+    --nav:#7D7D7D;
+    --caption:#B4AD9E;
+    --text:#626262;
+}
+body {
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-style: normal;
+    line-height: normal;
+    font-weight: 400;
+    color:var(--text);
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
+.nav-list_link {
+    color:var(--nav);
+}
+.nav-list_link:hover {
+    color:var(--hover);
+}
+.card-list_text {
+    color:var(--caption);
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+}
+.card-list_title {
+    font-size: 30px;
+    font-weight: 400;
+}
+.btn {
+    color:var(--text);
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+
+    width: 165px;
+    height: 60px;
+    background-color: transparent;
+    border:1px solid var(--text);
+}
