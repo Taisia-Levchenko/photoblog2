@@ -18,20 +18,42 @@ a {
 ul {
     list-style-type: none;
 }
+ul, p, h2, button {
+    padding: 0;
+    margin: 0;
+}
+img, button {
+    display: block;
+}
+
+.container {
+    width: 936px;
+    padding: 0 15px;
+    margin: 0 auto;
+    outline: 2px solid red;
+}
+
 .nav-list_link {
     color:var(--nav);
 }
 .nav-list_link:hover {
     color:var(--hover);
 }
+.card-list_img {
+    margin-bottom: 62px;
+}
+
+
 .card-list_text {
     color:var(--caption);
     font-family: 'Ubuntu', sans-serif;
     font-weight: 300;
+    margin-bottom: 32px;
 }
 .card-list_title {
     font-size: 30px;
     font-weight: 400;
+    margin-bottom: 40px;
 }
 .btn {
     color:var(--text);
@@ -40,8 +62,11 @@ ul {
     font-weight: 400;
     line-height: normal;
 
-    width: 165px;
-    height: 60px;
+    /* width: 165px;
+    height: 60px; */
     background-color: transparent;
     border:1px solid var(--text);
+
+    padding: 20px 48px;
+    margin: 90px auto 0;
 }

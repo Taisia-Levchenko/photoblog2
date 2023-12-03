@@ -5,9 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Photoblog</title>
 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./styles.css" />
-    <link rel="stylesheet" href="./normalize.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="./normalize.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,99 +20,101 @@
     />
   </head>
   <body>
-    <!-- Шапка сторінки -->
-    <header class="header">
-      <!-- Контейнер для навігації -->
-      <nav class="navigaton">
-        <!-- Однакнти додаємо в список -->
-        <ul class="nav-list">
-          <li class="nav-list_item">
-            <a href="/index.html" class="nav-list_link">LIFESTYLE</a>
+    <div class="container">
+      <!-- Шапка сторінки -->
+      <header class="header">
+        <!-- Контейнер для навігації -->
+        <nav class="navigaton">
+          <!-- Однакнти додаємо в список -->
+          <ul class="nav-list">
+            <li class="nav-list_item">
+              <a href="/index.html" class="nav-list_link">LIFESTYLE</a>
+            </li>
+            <li class="nav-list_item">
+              <a href="/index.html" class="nav-list_link">PHOTODIARY</a>
+            </li>
+            <li class="nav-list_item">
+              <a href="/index.html" class="nav-list_link">MUSIC</a>
+            </li>
+            <li class="nav-list_item">
+              <a href="/index.html" class="nav-list_link">TRAVEL</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- Головний унікальний контент сайту -->
+      <main class="main">
+        <ul class="card-list">
+          <li class="card-list_item">
+            <img src="./images/1.1.jpg" alt="girl" class="card-list_img" />
+            <p class="card-list_text">LIFESTYLE</p>
+            <h2 class="card-list_title">More than just a music festival</h2>
+            <p class="card-list_description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea.
+            </p>
           </li>
-          <li class="nav-list_item">
-            <a href="/index.html" class="nav-list_link">PHOTODIARY</a>
+          <li class="card-list_item">
+            <img src="./images/2.1.jpg" alt="tea" class="card-list_img" />
+            <p class="card-list_text">LIFESTYLE</p>
+            <h2 class="card-list_title">Life tastes better with coffee</h2>
+            <p class="card-list_description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea.
+            </p>
           </li>
-          <li class="nav-list_item">
-            <a href="/index.html" class="nav-list_link">MUSIC</a>
+          <li class="card-list_item">
+            <img src="./images/3.1.jpg" alt="bridge" class="card-list_img" />
+            <p class="card-list_text">PHOTODIARY</p>
+            <h2 class="card-list_title">American dream</h2>
+            <p class="card-list_description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea.
+            </p>
           </li>
-          <li class="nav-list_item">
-            <a href="/index.html" class="nav-list_link">TRAVEL</a>
+          <li class="card-list_item">
+            <img src="./images/3.2.jpg" alt="winter" class="card-list_img" />
+            <p class="card-list_text">PHOTODIARY</p>
+            <h2 class="card-list_title">A day exploring the Alps</h2>
+            <p class="card-list_description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea.
+            </p>
+          </li>
+          <li class="card-list_item">
+            <img src="./images/1.2.jpg" alt="winter" class="card-list_img" />
+            <p class="card-list_text">PHOTODIARY</p>
+            <h2 class="card-list_title">Top 10 song for running</h2>
+            <p class="card-list_description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea.
+            </p>
+          </li>
+          <li class="card-list_item">
+            <img src="./images/2.2.jpg" alt="road" class="card-list_img" />
+            <p class="card-list_text">LIFESTYLE</p>
+            <h2 class="card-list_title">Cold winter days</h2>
+            <p class="card-list_description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea.
+            </p>
           </li>
         </ul>
-      </nav>
-    </header>
-
-    <!-- Головний унікальний контент сайту -->
-    <main class="main">
-      <ul class="card-list">
-        <li class="card-list_item">
-          <img src="./images/1.1.jpg" alt="girl" class="card-list_img" />
-          <p class="card-list_text">LIFESTYLE</p>
-          <h2 class="card-list_title">More than just a music festival</h2>
-          <p class="card-list_description">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea.
-          </p>
-        </li>
-        <li class="card-list_item">
-          <img src="./images/2.1.jpg" alt="tea" class="card-list_img" />
-          <p class="card-list_text">LIFESTYLE</p>
-          <h2 class="card-list_title">Life tastes better with coffee</h2>
-          <p class="card-list_description">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea.
-          </p>
-        </li>
-        <li class="card-list_item">
-          <img src="./images/3.1.jpg" alt="bridge" class="card-list_img" />
-          <p class="card-list_text">PHOTODIARY</p>
-          <h2 class="card-list_title">American dream</h2>
-          <p class="card-list_description">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea.
-          </p>
-        </li>
-        <li class="card-list_item">
-          <img src="./images/3.2.jpg" alt="winter" class="card-list_img" />
-          <p class="card-list_text">PHOTODIARY</p>
-          <h2 class="card-list_title">A day exploring the Alps</h2>
-          <p class="card-list_description">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea.
-          </p>
-        </li>
-        <li class="card-list_item">
-          <img src="./images/1.2.jpg" alt="winter" class="card-list_img" />
-          <p class="card-list_text">PHOTODIARY</p>
-          <h2 class="card-list_title">Top 10 song for running</h2>
-          <p class="card-list_description">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea.
-          </p>
-        </li>
-        <li class="card-list_item">
-          <img src="./images/2.2.jpg" alt="road" class="card-list_img" />
-          <p class="card-list_text">LIFESTYLE</p>
-          <h2 class="card-list_title">Cold winter days</h2>
-          <p class="card-list_description">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea.
-          </p>
-        </li>
-      </ul>
-      <button type="button" class="btn">Load more</button>
-    </main>
+        <button type="button" class="btn">Load more</button>
+      </main>
+    </div>
   </body>
 </html>
