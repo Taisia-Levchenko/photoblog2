@@ -1,0 +1,31 @@
+body {
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-style: normal;
+    line-height: normal;
+    font-weight: 400;
+    color: var(--text);
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
+ul,
+p,
+h2,
+button {
+    padding: 0;
+    margin: 0;
+}
+img,
+button {
+    display: block;
+}
+.container {
+    width: 936px;
+    padding: 15px 15px;
+    margin: 0 auto;
+    /* outline: 2px solid red;  */
+}

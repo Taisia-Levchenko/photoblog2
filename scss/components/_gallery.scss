@@ -1,0 +1,37 @@
+.card-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 64px;
+    row-gap: 130px;
+}
+.card-list_item {
+    width: 420px;
+}
+.card-list_img {
+    margin-bottom: 62px;
+}
+.card-list_text {
+    color: var(--caption);
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    margin-bottom: 32px;
+}
+.card-list_title {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.btn {
+    color: var(--text);
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+
+    background-color: transparent;
+    border: 1px solid var(--text);
+
+    padding: 20px 48px;
+    margin: 90px auto 0;
+}

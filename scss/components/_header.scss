@@ -1,0 +1,16 @@
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 99px;
+}
+.nav-list_item {
+    padding-top: 71px;
+    padding-bottom: 86px;
+}
+.nav-list_link {
+    color: var(--nav);
+}
+.nav-list_link:hover {
+    color: var(--hover);
+}
