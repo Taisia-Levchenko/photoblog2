@@ -4,20 +4,7 @@ body {
     font-style: normal;
     line-height: normal;
     font-weight: 400;
-    color: var(--text);
-}
-a {
-    text-decoration: none;
-}
-ul {
-    list-style-type: none;
-}
-ul,
-p,
-h2,
-button {
-    padding: 0;
-    margin: 0;
+    color: getColor("text");
 }
 img,
 button {
@@ -27,5 +14,4 @@ button {
     width: 936px;
     padding: 15px 15px;
     margin: 0 auto;
-    /* outline: 2px solid red;  */
 }

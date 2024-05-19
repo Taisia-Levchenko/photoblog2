@@ -4,13 +4,13 @@
     justify-content: center;
     gap: 99px;
 }
-.nav-list_item {
+.nav-list__item {
     padding-top: 71px;
     padding-bottom: 86px;
 }
-.nav-list_link {
-    color: var(--nav);
+.nav-list__link {
+    color: getColor("nav");
 }
-.nav-list_link:hover {
-    color: var(--hover);
+.nav-list__link:hover {
+    color: getColor("hover");
 }
