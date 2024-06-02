@@ -1,3 +1,11 @@
+.card-list {
+  @extend %flex;
+  column-gap: 64px;
+  row-gap: 130px;
+  &__item {
+    width: 420px;
+  }
+}
 .card {
   &__thumb {
     width: 420px;
@@ -5,10 +13,7 @@
     margin-bottom: 62px;
   }
   &__img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
+    @extend %image;
   }
   &__text {
     color: getColor("caption");
@@ -22,26 +27,14 @@
     margin-bottom: 40px;
   }
 }
-.card-list {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  column-gap: 64px;
-  row-gap: 130px;
-  &__item {
-    width: 420px;
-  }
-}
 .btn {
-  color: getColor("text");
+  @extend %text;
+  @include button(getColor("text"), transparent, 1px solid getColor("text"));
+  // color: getColor("text");
+  // background-color: transparent;
+  // border: 1px solid getColor("text");
+
   font-family: "Playfair Display", serif;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: normal;
-
-  background-color: transparent;
-  border: 1px solid getColor("text");
-
   padding: 20px 48px;
   margin: 90px auto 0;
 }

@@ -1,7 +1,5 @@
 .nav-list {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  @extend %flex;
   gap: 99px;
   &__item {
     padding-top: 71px;

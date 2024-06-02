@@ -1,0 +1,8 @@
+@mixin button($color, $button-color, $border) {
+  color: $color;
+  background-color: $button-color;
+  //   border: 1px solid getColor("text");
+  border: $border;
+  padding: 20px 48px;
+  font-family: "Playfair Display", serif;
+}
