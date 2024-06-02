@@ -1,16 +1,16 @@
 .nav-list {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 99px;
-}
-.nav-list__item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 99px;
+  &__item {
     padding-top: 71px;
     padding-bottom: 86px;
-}
-.nav-list__link {
+  }
+  &__link {
     color: getColor("nav");
-}
-.nav-list__link:hover {
-    color: getColor("hover");
+    &:hover {
+        color: getColor("hover");
+    }
+  } 
 }

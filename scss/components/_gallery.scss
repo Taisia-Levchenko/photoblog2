@@ -1,14 +1,4 @@
 .card {
-  &-list {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    column-gap: 64px;
-    row-gap: 130px;
-    &__item {
-      width: 420px;
-    }
-  }
   &__thumb {
     width: 420px;
     height: 280px;
@@ -30,6 +20,16 @@
     font-size: 30px;
     font-weight: 400;
     margin-bottom: 40px;
+  }
+}
+.card-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 64px;
+  row-gap: 130px;
+  &__item {
+    width: 420px;
   }
 }
 .btn {
